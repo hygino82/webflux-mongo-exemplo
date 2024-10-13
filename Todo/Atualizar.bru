@@ -1,0 +1,20 @@
+meta {
+  name: Atualizar
+  type: http
+  seq: 4
+}
+
+put {
+  url: http://localhost:8080/todos/9as87sdf98
+  body: none
+  auth: none
+}
+
+body:json {
+  {
+    "id": "9as87sdf98",
+    "titulo": "Limpar a caixa do gato",
+    "descricao": "Limpar a caixa de areia do gato",
+    "feito": false
+  }
+}
